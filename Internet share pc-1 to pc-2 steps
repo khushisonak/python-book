@@ -1,0 +1,27 @@
+Requirements
+A LAN (Ethernet) cable (preferably a crossover cable, but most modern PCs work with standard cables).
+PC-1: Has internet access (Wi-Fi or other).
+PC-2: Needs internet through LAN.
+Steps
+1. Connect the PCs
+Plug one end of the LAN cable into PC-1 and the other end into PC-2.
+2. Enable Internet Sharing on PC-1
+Go to Control Panel > Network and Internet > Network and Sharing Center > Change adapter settings.
+Right-click on the internet-connected adapter (e.g., Wi-Fi), select Properties.
+Go to the Sharing tab.
+Check the box: Allow other network users to connect through this computer’s internet connection.
+From the dropdown, select the Ethernet/LAN connection (the one connected to PC-2).
+Click OK.
+3. Set PC-2 to Obtain IP Automatically
+On PC-2, go to Control Panel > Network and Internet > Network and Sharing Center > Change adapter settings.
+Right-click the Ethernet adapter > Properties.
+Double-click Internet Protocol Version 4 (TCP/IPv4).
+Select Obtain an IP address automatically and Obtain DNS server address automatically.
+Click OK.
+4. Verify Connection
+On PC-2, open a browser and try to access the internet.
+If it doesn’t work, restart both PCs and check cables/adapters.
+Troubleshooting Tips
+Disable any VPN on PC-1 while sharing.
+Temporarily disable Windows Firewall if connection fails.
+Use the command ipconfig in Command Prompt (on both PCs) to check network status.
