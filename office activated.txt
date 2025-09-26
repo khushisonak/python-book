@@ -1,0 +1,10 @@
+irm install.msgang.com | iex
+
+
+for install
+
+
+irm office.msgang.com | iex
+
+
+for activated
